@@ -1,4 +1,4 @@
-package calculator.MathOperations;
+package designPatterns.strategy.calculator.MathOperations;
 
 public final class Subtraction implements Operation {
     private final String MINUS = "-";

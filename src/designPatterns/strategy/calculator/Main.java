@@ -1,4 +1,4 @@
-package calculator;
+package designPatterns.strategy.calculator;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

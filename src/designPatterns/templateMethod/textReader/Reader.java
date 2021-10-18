@@ -1,4 +1,4 @@
-package textReader;
+package designPatterns.templateMethod.textReader;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

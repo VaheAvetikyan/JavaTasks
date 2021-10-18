@@ -1,4 +1,4 @@
-package calculator.MathOperations;
+package designPatterns.strategy.calculator.MathOperations;
 
 public final class Addition implements Operation {
     private final String PLUS = "+";

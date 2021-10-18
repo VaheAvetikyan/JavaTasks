@@ -1,4 +1,4 @@
-package calculator.MathOperations;
+package designPatterns.strategy.calculator.MathOperations;
 
 public interface Operation {
     String getSign();

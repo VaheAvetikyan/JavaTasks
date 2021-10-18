@@ -1,6 +1,6 @@
-package textReader.analyzer;
+package designPatterns.templateMethod.textReader.analyzer;
 
-import textReader.customIO.TextFileWrapper;
+import designPatterns.templateMethod.textReader.customIO.TextFileWrapper;
 
 public class SymbolCounter extends InputAnalyzer {
     @Override

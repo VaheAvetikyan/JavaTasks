@@ -1,7 +1,7 @@
-package calculator;
+package designPatterns.strategy.calculator;
 
-import calculator.MathOperations.Operation;
-import calculator.MathOperations.OperationsList;
+import designPatterns.strategy.calculator.MathOperations.Operation;
+import designPatterns.strategy.calculator.MathOperations.OperationsList;
 
 import java.util.InputMismatchException;
 import java.util.List;

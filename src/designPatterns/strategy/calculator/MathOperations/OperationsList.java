@@ -1,4 +1,4 @@
-package calculator.MathOperations;
+package designPatterns.strategy.calculator.MathOperations;
 
 import java.util.ArrayList;
 import java.util.List;

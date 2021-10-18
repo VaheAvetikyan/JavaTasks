@@ -1,4 +1,4 @@
-package textReader.customIO;
+package designPatterns.templateMethod.textReader.customIO;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
