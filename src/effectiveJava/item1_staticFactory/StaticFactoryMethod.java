@@ -1,4 +1,4 @@
-package effectiveJava;
+package effectiveJava.item1_staticFactory;
 
 import java.math.BigInteger;
 
