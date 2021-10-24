@@ -1,14 +1,15 @@
-package effectiveJava;
+package effectiveJava.item2_builder;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Builder {
+public class BuilderExample {
     public static void main(String[] args) {
         List<String> roles = new ArrayList<>();
         roles.add("ROLE_SUPER_USER");
         roles.add("ROLE_ADMIN");
+
         var user = new User.Builder("email@gmail.com", "pass")
                 .firstName("f")
                 .lastName("l")
@@ -22,16 +23,16 @@ public class Builder {
 
 class User {
     private final String email;
-    private final String password;
+    private String password;
     private final String firstName;
     private final String lastName;
     private final Date birthDate;
 
-    private List<String> roles;
+    private final List<String> roles;
 
     public static class Builder {
         private final String email;
-        private final String password;
+        private String password;
         private String firstName;
         private String lastName;
         private Date birthDate;
