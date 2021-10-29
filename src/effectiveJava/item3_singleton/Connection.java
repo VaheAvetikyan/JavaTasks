@@ -5,6 +5,9 @@ public class Connection {
     public static final Connection INSTANCE = new Connection();
 
     private Connection() {
+        if (INSTANCE != null) {
+            throw new RuntimeException("Instance already exists");
+        }
     }
 
     public boolean connected() {
@@ -17,6 +20,9 @@ class Connect {
     private static final Connect INSTANCE = new Connect();
 
     private Connect() {
+        if (INSTANCE != null) {
+            throw new RuntimeException("Instance already exists");
+        }
     }
 
     public static Connect getInstance() {
