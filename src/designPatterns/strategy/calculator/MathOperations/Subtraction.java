@@ -3,7 +3,7 @@ package designPatterns.strategy.calculator.MathOperations;
 public final class Subtraction implements Operation {
     private final String MINUS = "-";
 
-    protected Subtraction() {
+    Subtraction() {
     }
 
     @Override

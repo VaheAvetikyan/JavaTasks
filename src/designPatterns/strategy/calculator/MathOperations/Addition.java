@@ -3,7 +3,7 @@ package designPatterns.strategy.calculator.MathOperations;
 public final class Addition implements Operation {
     private final String PLUS = "+";
 
-    protected Addition() {
+    Addition() {
     }
 
     @Override

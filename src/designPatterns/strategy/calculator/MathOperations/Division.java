@@ -3,7 +3,7 @@ package designPatterns.strategy.calculator.MathOperations;
 public final class Division implements Operation {
     private final String DIVIDE = "/";
 
-    protected Division() {
+    Division() {
     }
 
     @Override

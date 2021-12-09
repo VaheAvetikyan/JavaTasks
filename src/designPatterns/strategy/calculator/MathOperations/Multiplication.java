@@ -3,7 +3,7 @@ package designPatterns.strategy.calculator.MathOperations;
 public final class Multiplication implements Operation {
     private final String MULTIPLY = "*";
 
-    protected Multiplication() {
+    Multiplication() {
     }
 
     @Override
